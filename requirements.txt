@@ -1,0 +1,11 @@
+plotly
+pandas
+scikit-learn
+matplotlib
+kaleido
+nbformat
+scikit-posthocs
+Jinja2
+missingno
+imblearn
+seaborn=0.13.0
