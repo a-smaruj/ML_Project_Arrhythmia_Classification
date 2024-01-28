@@ -52,7 +52,7 @@ def our_roc_curves(param_x_test, param_y_test, best_model, title):
         color = colors[i % len(colors)]
 
         # Ustaw etykiety na legendzie zamiast oryginalnych klas
-        plt.plot(fpr, tpr, lw=2, label=f' {class_label} (AUC = {roc_auc:.2f})', color=color)
+        plt.plot(fpr, tpr, lw=2, label=f' {class_label} (AUC = {roc_auc:.4f})', color=color)
 
     plt.plot([0, 1], [0, 1], linestyle='--', color='black', lw=0.8)
     plt.title(title)
